@@ -1,10 +1,10 @@
---index-url https://download.pytorch.org/whl/cpu
-
 streamlit==1.57.0
-torch==2.1.2+cpu
-torchvision==0.17.2+cpu
 pandas
 numpy
 pillow
 matplotlib
 seaborn
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
