@@ -1,0 +1,7 @@
+class,precision,recall,f1-score,support
+good,0.47058823529411764,1.0,0.64,8.0
+moderate,1.0,1.0,1.0,8.0
+severe,1.0,0.75,0.8571428571428571,8.0
+unhealthy,1.0,1.0,1.0,8.0
+unhealthy for sensitive groups,1.0,0.125,0.2222222222222222,8.0
+very unhealthy,1.0,1.0,1.0,8.0
