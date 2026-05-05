@@ -363,8 +363,7 @@ page = st.sidebar.radio(
 
 # ========================= OVERVIEW =========================
 if page == "🏠 Overview":
-    st.title("🌍 AirVana DL")
-
+    st.title("🌍 SkyNet: AirVana's Personal Sky Scanner")
     c1, c2, c3 = st.columns(3)
 
     with c1:
