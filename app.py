@@ -353,7 +353,7 @@ transform = transforms.Compose([
 
 
 # ========================= SIDEBAR =========================
-st.sidebar.title("🌍 AQI Benchmark")
+st.sidebar.title("🌍 SkyNet: AirVana's Personal Sky Scanner")
 
 page = st.sidebar.radio(
     "Navigation",
@@ -363,7 +363,7 @@ page = st.sidebar.radio(
 
 # ========================= OVERVIEW =========================
 if page == "🏠 Overview":
-    st.title("🌍 AQI Research Benchmark Dashboard")
+    st.title("🌍 AirVana DL")
 
     c1, c2, c3 = st.columns(3)
 
