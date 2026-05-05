@@ -238,7 +238,7 @@ import numpy as np
 
 # ========================= CONFIG =========================
 st.set_page_config(
-    page_title="AQI Research Benchmark",
+    page_title="SkyNet: AirVana's Personal Sky Scanner",
     page_icon="🌍",
     layout="wide"
 )
@@ -353,7 +353,7 @@ transform = transforms.Compose([
 
 
 # ========================= SIDEBAR =========================
-st.sidebar.title("🌍 SkyNet: AirVana's Personal Sky Scanner")
+st.sidebar.title("🌍 SkyNet Navigation")
 
 page = st.sidebar.radio(
     "Navigation",
